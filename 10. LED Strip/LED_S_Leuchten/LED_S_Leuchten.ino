@@ -1,10 +1,10 @@
-// Wir laden eine Bibliothek in unser Projek, die die Kommunikation mit den LED's steuert.
+// Wir laden eine Bibliothek in unser Projekt, die die Kommunikation mit den LEDs steuert.
 // Hierfür müssen nun die Pins erstmal angesteckt werden: 5 Volt an 3 Volt, GND an GND und DIN auf D4.
 #include <Adafruit_NeoPixel.h>
 
 // Wir legen fest, dass PIN D4 für die Kommunikation benutzt wird
 uint16_t NeoPIN =D4;
-// Wir legen fest, dass der Strip drei LED hat
+// Wir legen fest, dass der Strip drei LEDs hat
 uint16_t NUM_LEDS =3;
 
 // Wir erstellen eine Referenz auf eine Klasse namens "strip" vom Typ Adafruit_NeoPixel
